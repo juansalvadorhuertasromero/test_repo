@@ -1,0 +1,7 @@
+clear all;
+close all;
+clc;
+
+load data;
+plot(dateNums, price);
+datetick('x','mmm-yy');
